@@ -29,9 +29,6 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
-      <concept id="7651593722933768974" name="jetbrains.mps.lang.editor.structure.MaxWidthStyleClassItem" flags="ln" index="nf9zX">
-        <property id="7651593722933768975" name="value" index="nf9zW" />
-      </concept>
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
@@ -323,9 +320,6 @@
       </node>
       <node concept="11LMrY" id="1c4zpvemofu" role="3F10Kt">
         <property role="VOm3f" value="true" />
-      </node>
-      <node concept="nf9zX" id="1c4zpvenhKF" role="3F10Kt">
-        <property role="nf9zW" value="100" />
       </node>
     </node>
     <node concept="2aJ2om" id="1c4zpvemn4Y" role="CpUAK">
