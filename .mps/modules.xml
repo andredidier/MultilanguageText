@@ -4,6 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.curriculumvitae/com.andredidier.curriculumvitae.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.curriculumvitae/sandbox/com.andredidier.curriculumvitae.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.formattedtext/com.andredidier.formattedtext.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.formattedtext/sandbox/com.andredidier.formattedtext.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.multilanguage/com.andredidier.multilanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.multilanguage/sandbox/com.andredidier.multilanguage.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintextoutput/com.andredidier.plaintextoutput.mpl" folder="" />
