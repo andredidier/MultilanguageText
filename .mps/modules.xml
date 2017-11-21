@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.curriculumvitae/com.andredidier.curriculumvitae.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.curriculumvitae/sandbox/com.andredidier.curriculumvitae.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.multilanguage/com.andredidier.multilanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.multilanguage/sandbox/com.andredidier.multilanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintextoutput/com.andredidier.plaintextoutput.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintextoutput/sandbox/com.andredidier.plaintextoutput.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
