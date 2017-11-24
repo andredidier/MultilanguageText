@@ -48,14 +48,7 @@
     <property role="TrG5h" value="TextFile" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="text file" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2QM0zOHdcgm" role="1TKVEi">
-      <property role="IQ2ns" value="3292696739335947286" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="paragraphs" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2QM0zOHdcgj" resolve="Paragraph" />
-    </node>
+    <ref role="1TJDcQ" node="5wZ08BeeuhX" resolve="TextContainer" />
     <node concept="PrWs8" id="1wfRh$iIp7q" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -90,6 +83,18 @@
   <node concept="PlHQZ" id="1wfRh$iH9Ia">
     <property role="EcuMT" value="1733847481318677386" />
     <property role="TrG5h" value="IText" />
+  </node>
+  <node concept="1TIwiD" id="5wZ08BeeuhX">
+    <property role="EcuMT" value="6358801790740849789" />
+    <property role="TrG5h" value="TextContainer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5wZ08BeeuhY" role="1TKVEi">
+      <property role="IQ2ns" value="6358801790740849790" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paragraphs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2QM0zOHdcgj" resolve="Paragraph" />
+    </node>
   </node>
 </model>
 

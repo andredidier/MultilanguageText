@@ -15,7 +15,6 @@
       </models>
       <external-templates />
       <dependencies>
-        <dependency reexport="false">5ddd4fbf-4201-4df7-90f5-b8199a4733aa(com.andredidier.plaintextoutput)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">919bc267-bbe1-4b77-a58b-6526c65b44c1(com.andredidier.multilanguage)</dependency>
       </dependencies>

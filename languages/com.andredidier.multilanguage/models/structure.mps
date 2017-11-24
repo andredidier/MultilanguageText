@@ -275,13 +275,6 @@
     <node concept="PrWs8" id="1wfRh$iIJNu" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="1TJgyj" id="1wfRh$iKPYU" role="1TKVEi">
-      <property role="IQ2ns" value="1733847481319645114" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="selected" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
-    </node>
   </node>
 </model>
 

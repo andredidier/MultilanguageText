@@ -105,6 +105,7 @@
         <child id="1169672767469" name="ruleConsequence" index="1lVwrX" />
       </concept>
       <concept id="1167514355419" name="jetbrains.mps.lang.generator.structure.Root_MappingRule" flags="lg" index="3lhOvk">
+        <property id="1177959072138" name="keepSourceRoot" index="13Pg2o" />
         <reference id="1167514355421" name="template" index="3lhOvi" />
       </concept>
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
@@ -178,6 +179,7 @@
   <node concept="bUwia" id="3klFhBVQSgf">
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="1wfRh$iKtVi" role="3lj3bC">
+      <property role="13Pg2o" value="true" />
       <ref role="30HIoZ" to="fvh7:1wfRh$iBjZO" resolve="MultilanguageTextFile" />
       <ref role="3lhOvi" node="1wfRh$iKzw8" resolve="map_MultilanguageTextFile" />
     </node>
@@ -215,14 +217,14 @@
                   <node concept="30H73N" id="1wfRh$iRXqS" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1wfRh$iRXqT" role="2OqNvi">
                     <node concept="1xMEDy" id="1wfRh$iRXqU" role="1xVPHs">
-                      <node concept="chp4Y" id="1wfRh$iRXqV" role="ri$Ld">
-                        <ref role="cht4Q" to="fvh7:1wfRh$iBjZO" resolve="MultilanguageTextFile" />
+                      <node concept="chp4Y" id="5wZ08BefqLz" role="ri$Ld">
+                        <ref role="cht4Q" to="z47l:5wZ08BeeuhX" resolve="TextContainer" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3Tsc0h" id="1wfRh$iRXqW" role="2OqNvi">
-                  <ref role="3TtcxE" to="z47l:2QM0zOHdcgm" resolve="paragraphs" />
+                <node concept="3Tsc0h" id="5wZ08BefJoh" role="2OqNvi">
+                  <ref role="3TtcxE" to="z47l:5wZ08BeeuhY" resolve="paragraphs" />
                 </node>
               </node>
             </node>

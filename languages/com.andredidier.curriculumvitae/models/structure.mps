@@ -8,6 +8,7 @@
   <imports>
     <import index="fvh7" ref="r:fcf5b73f-1514-4f9e-9a7b-a7820e536a38(com.andredidier.multilanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="z47l" ref="r:5ed5bb3f-bd1e-44e7-883f-e16014d00ba9(com.andredidier.plaintext.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -51,6 +52,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -422,6 +426,40 @@
       <property role="20kJfa" value="selectedTags" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="MbvRtBiJDu" resolve="TagReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5wZ08BeeuhK">
+    <property role="EcuMT" value="6358801790740849776" />
+    <property role="3GE5qa" value="new" />
+    <property role="TrG5h" value="NApplicationForm" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="new application form" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5wZ08BeeuIT" role="1TKVEi">
+      <property role="IQ2ns" value="6358801790740851641" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fields" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5wZ08BeeuhL" resolve="NApplicationFormField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5wZ08BeeuhL">
+    <property role="EcuMT" value="6358801790740849777" />
+    <property role="3GE5qa" value="new" />
+    <property role="TrG5h" value="NApplicationFormField" />
+    <property role="34LRSv" value="application form field" />
+    <ref role="1TJDcQ" to="z47l:5wZ08BeeuhX" resolve="TextContainer" />
+    <node concept="1TJgyi" id="5wZ08BeeuhO" role="1TKVEl">
+      <property role="IQ2nx" value="6358801790740849780" />
+      <property role="TrG5h" value="maximumCharacters" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="5wZ08BeeuhS" role="1TKVEi">
+      <property role="IQ2ns" value="6358801790740849784" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="description" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="z47l:5wZ08BeeuhX" resolve="TextContainer" />
     </node>
   </node>
 </model>
