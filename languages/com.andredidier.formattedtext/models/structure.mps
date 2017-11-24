@@ -195,17 +195,19 @@
   </node>
   <node concept="1TIwiD" id="50YfrEDvF72">
     <property role="EcuMT" value="5782126843507159490" />
-    <property role="TrG5h" value="Plain" />
-    <property role="34LRSv" value="plain" />
+    <property role="TrG5h" value="Phrase" />
+    <property role="34LRSv" value="phrase" />
     <property role="3GE5qa" value="FormattedPhrase" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="50YfrEDvF73" role="PzmwI">
       <ref role="PrY4T" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
     </node>
-    <node concept="1TJgyi" id="50YfrEDvF79" role="1TKVEl">
-      <property role="IQ2nx" value="5782126843507159497" />
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="3gFqVnZj1Y2" role="1TKVEi">
+      <property role="IQ2ns" value="3759216743387242370" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="words" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
     </node>
   </node>
   <node concept="1TIwiD" id="50YfrEDvF7d">
@@ -223,6 +225,21 @@
       <property role="20kJfa" value="italicizing" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gFqVnZiYE_">
+    <property role="EcuMT" value="3759216743387228837" />
+    <property role="3GE5qa" value="FormattedPhrase" />
+    <property role="TrG5h" value="Word" />
+    <property role="34LRSv" value="word" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3gFqVnZiYEA" role="PzmwI">
+      <ref role="PrY4T" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
+    </node>
+    <node concept="1TJgyi" id="3gFqVnZiYEC" role="1TKVEl">
+      <property role="IQ2nx" value="3759216743387228840" />
+      <property role="TrG5h" value="word" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
