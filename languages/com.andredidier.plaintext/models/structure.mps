@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d01ea4a5-42bf-431f-8621-0d606f0f9d4c(com.andredidier.plaintextoutput.structure)">
+<model ref="r:5ed5bb3f-bd1e-44e7-883f-e16014d00ba9(com.andredidier.plaintext.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="5" />
@@ -43,61 +43,53 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="6umpPFGWpAp">
-    <property role="EcuMT" value="7464267072633149849" />
-    <property role="TrG5h" value="File" />
-    <property role="34LRSv" value="file" />
+  <node concept="1TIwiD" id="2QM0zOHdcgi">
+    <property role="EcuMT" value="3292696739335947282" />
+    <property role="TrG5h" value="TextFile" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="text file" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6umpPFGWpBb" role="PzmwI">
+    <node concept="1TJgyj" id="2QM0zOHdcgm" role="1TKVEi">
+      <property role="IQ2ns" value="3292696739335947286" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paragraphs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2QM0zOHdcgj" resolve="Paragraph" />
+    </node>
+    <node concept="PrWs8" id="1wfRh$iIp7q" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="6umpPFGXYaQ" role="1TKVEi">
-      <property role="IQ2ns" value="7464267072633561782" />
+  </node>
+  <node concept="1TIwiD" id="2QM0zOHdcgj">
+    <property role="EcuMT" value="3292696739335947283" />
+    <property role="TrG5h" value="Paragraph" />
+    <property role="34LRSv" value="paragraph" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2QM0zOHddSP" role="1TKVEi">
+      <property role="IQ2ns" value="3292696739335953973" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6umpPFGXYaP" resolve="FileContents" />
+      <property role="20kJfa" value="blocks" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1wfRh$iH9Ia" resolve="IText" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6umpPFGWrdC">
-    <property role="EcuMT" value="7464267072633156456" />
-    <property role="TrG5h" value="TextLine" />
-    <property role="34LRSv" value="text line" />
+  <node concept="1TIwiD" id="2QM0zOHdds8">
+    <property role="EcuMT" value="3292696739335952136" />
+    <property role="TrG5h" value="TextBlock" />
+    <property role="34LRSv" value="text block" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6umpPFGWuYO" role="1TKVEl">
-      <property role="IQ2nx" value="7464267072633171892" />
+    <node concept="1TJgyi" id="2QM0zOHdds9" role="1TKVEl">
+      <property role="IQ2nx" value="3292696739335952137" />
       <property role="TrG5h" value="contents" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="6umpPFGXQOo" role="PzmwI">
-      <ref role="PrY4T" node="6umpPFGWrdE" resolve="ILine" />
+    <node concept="PrWs8" id="1wfRh$iH9Iq" role="PzmwI">
+      <ref role="PrY4T" node="1wfRh$iH9Ia" resolve="IText" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6umpPFGWrdD">
-    <property role="EcuMT" value="7464267072633156457" />
-    <property role="TrG5h" value="BlankLine" />
-    <property role="34LRSv" value="blank line" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6umpPFGXQOu" role="PzmwI">
-      <ref role="PrY4T" node="6umpPFGWrdE" resolve="ILine" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6umpPFGWrdE">
-    <property role="EcuMT" value="7464267072633156458" />
-    <property role="TrG5h" value="ILine" />
-  </node>
-  <node concept="1TIwiD" id="6umpPFGXYaP">
-    <property role="EcuMT" value="7464267072633561781" />
-    <property role="TrG5h" value="FileContents" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6umpPFGWrdF" role="1TKVEi">
-      <property role="IQ2ns" value="7464267072633156459" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="lines" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6umpPFGWrdE" resolve="ILine" />
-    </node>
+  <node concept="PlHQZ" id="1wfRh$iH9Ia">
+    <property role="EcuMT" value="1733847481318677386" />
+    <property role="TrG5h" value="IText" />
   </node>
 </model>
 

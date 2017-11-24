@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="z47l" ref="r:5ed5bb3f-bd1e-44e7-883f-e16014d00ba9(com.andredidier.plaintext.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -39,6 +40,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -48,6 +52,7 @@
     <property role="EcuMT" value="3825153785632359449" />
     <property role="TrG5h" value="Language" />
     <property role="34LRSv" value="language" />
+    <property role="3GE5qa" value="" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3klFhBVQSi7" role="1TKVEl">
       <property role="IQ2nx" value="3825153785632359559" />
@@ -73,6 +78,7 @@
     <property role="TrG5h" value="LanguagesConfiguration" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="languages configuration" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3klFhBVQSgr" role="1TKVEi">
       <property role="IQ2ns" value="3825153785632359451" />
@@ -96,6 +102,7 @@
     <property role="EcuMT" value="3825153785632385618" />
     <property role="TrG5h" value="Sentence" />
     <property role="34LRSv" value="sentence" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3klFhBVQYDq" role="1TKVEi">
       <property role="IQ2ns" value="3825153785632385626" />
@@ -115,6 +122,7 @@
   <node concept="1TIwiD" id="3klFhBVQYDs">
     <property role="EcuMT" value="3825153785632385628" />
     <property role="TrG5h" value="TextInLanguage" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3klFhBVQYDt" role="1TKVEi">
       <property role="IQ2ns" value="3825153785632385629" />
@@ -134,6 +142,7 @@
   <node concept="1TIwiD" id="3klFhBVRaa7">
     <property role="EcuMT" value="3825153785632432775" />
     <property role="TrG5h" value="MultilingualText" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3klFhBVRaa8" role="1TKVEi">
       <property role="IQ2ns" value="3825153785632432776" />
@@ -147,6 +156,7 @@
     <property role="EcuMT" value="2922995110642446756" />
     <property role="TrG5h" value="SentenceFormat" />
     <property role="34LRSv" value="sentence format" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2yg$9422Z6_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -155,12 +165,14 @@
   <node concept="PlHQZ" id="2yg$9425nas">
     <property role="EcuMT" value="2922995110643069596" />
     <property role="TrG5h" value="ITextContents" />
+    <property role="3GE5qa" value="old" />
   </node>
   <node concept="1TIwiD" id="2yg$9425naz">
     <property role="EcuMT" value="2922995110643069603" />
     <property role="TrG5h" value="List" />
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="list" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2yg$9425naB" role="1TKVEi">
       <property role="IQ2ns" value="2922995110643069607" />
@@ -177,18 +189,21 @@
     <property role="EcuMT" value="2922995110643069613" />
     <property role="TrG5h" value="UnorderedList" />
     <property role="34LRSv" value="unordered list" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" node="2yg$9425naz" resolve="List" />
   </node>
   <node concept="1TIwiD" id="2yg$9425ncn">
     <property role="EcuMT" value="2922995110643069719" />
     <property role="TrG5h" value="OrderedList" />
     <property role="34LRSv" value="ordered list" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" node="2yg$9425naz" resolve="List" />
   </node>
   <node concept="1TIwiD" id="2yg$94267Ku">
     <property role="EcuMT" value="2922995110643268638" />
     <property role="TrG5h" value="ListItem" />
     <property role="34LRSv" value="list item" />
+    <property role="3GE5qa" value="old" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2yg$94267Kv" role="1TKVEi">
       <property role="IQ2ns" value="2922995110643268639" />
@@ -201,11 +216,94 @@
   <node concept="PlHQZ" id="2RoS$Ci1n5F">
     <property role="EcuMT" value="3303639134434062699" />
     <property role="TrG5h" value="ILanguageSelector" />
+    <property role="3GE5qa" value="old" />
     <node concept="1TJgyj" id="2RoS$Ci1n5G" role="1TKVEi">
       <property role="IQ2ns" value="3303639134434062700" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="selectedLanguage" />
       <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wfRh$iBelu">
+    <property role="EcuMT" value="1733847481317123422" />
+    <property role="TrG5h" value="TextBlockInLanguage" />
+    <property role="34LRSv" value="text block in language" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1wfRh$iBelv" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481317123423" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="language" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
+    </node>
+    <node concept="1TJgyj" id="1wfRh$iBjYc" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481317146508" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="textBlock" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="z47l:2QM0zOHdds8" resolve="TextBlock" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wfRh$iBjYb">
+    <property role="EcuMT" value="1733847481317146507" />
+    <property role="TrG5h" value="MultiLanguageTextBlock" />
+    <property role="34LRSv" value="multilanguage text block" />
+    <node concept="1TJgyj" id="1wfRh$iBjYf" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481317146511" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="textBlocksInLanguage" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1wfRh$iBelu" resolve="TextBlockInLanguage" />
+    </node>
+    <node concept="PrWs8" id="1wfRh$iH9Iy" role="PzmwI">
+      <ref role="PrY4T" to="z47l:1wfRh$iH9Ia" resolve="IText" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wfRh$iBjZO">
+    <property role="EcuMT" value="1733847481317146612" />
+    <property role="TrG5h" value="MultilanguageTextFile" />
+    <property role="34LRSv" value="multilanguage text file" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="z47l:2QM0zOHdcgi" resolve="TextFile" />
+    <node concept="1TJgyj" id="1wfRh$iBjZP" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481317146613" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="languages" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
+    </node>
+    <node concept="PrWs8" id="1wfRh$iIJNu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1TJgyj" id="1wfRh$iKPYU" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481319645114" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="selected" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wfRh$iJPSc">
+    <property role="EcuMT" value="1733847481319382540" />
+    <property role="TrG5h" value="LanguageSelection" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1wfRh$iJPSd" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481319382541" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="file" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1wfRh$iBjZO" resolve="MultilanguageTextFile" />
+    </node>
+    <node concept="1TJgyj" id="1wfRh$iJPSf" role="1TKVEi">
+      <property role="IQ2ns" value="1733847481319382543" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="language" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
+    </node>
+    <node concept="PrWs8" id="1wfRh$iKhMU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

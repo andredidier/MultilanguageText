@@ -8,8 +8,8 @@
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.formattedtext/sandbox/com.andredidier.formattedtext.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.multilanguage/com.andredidier.multilanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.andredidier.multilanguage/sandbox/com.andredidier.multilanguage.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintextoutput/com.andredidier.plaintextoutput.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintextoutput/sandbox/com.andredidier.plaintextoutput.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintext/com.andredidier.plaintext.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.andredidier.plaintext/sandbox/com.andredidier.plaintext.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

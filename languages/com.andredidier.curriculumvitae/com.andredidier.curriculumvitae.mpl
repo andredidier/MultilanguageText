@@ -22,6 +22,7 @@
       <languageVersions>
         <language slang="l:6e4fbbbc-1f07-47e5-9316-da34f7f8c9fe:com.andredidier.curriculumvitae" version="0" />
         <language slang="l:919bc267-bbe1-4b77-a58b-6526c65b44c1:com.andredidier.multilanguage" version="0" />
+        <language slang="l:5be2f025-63b8-4305-b280-20fa1f90955b:com.andredidier.plaintext" version="0" />
         <language slang="l:5ddd4fbf-4201-4df7-90f5-b8199a4733aa:com.andredidier.plaintextoutput" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -46,6 +47,7 @@
         <module reference="6e4fbbbc-1f07-47e5-9316-da34f7f8c9fe(com.andredidier.curriculumvitae)" version="0" />
         <module reference="6c9c3b96-2a94-4e5f-b954-1aafae402e35(com.andredidier.curriculumvitae#3825153785632359447)" version="0" />
         <module reference="919bc267-bbe1-4b77-a58b-6526c65b44c1(com.andredidier.multilanguage)" version="0" />
+        <module reference="5be2f025-63b8-4305-b280-20fa1f90955b(com.andredidier.plaintext)" version="0" />
         <module reference="5ddd4fbf-4201-4df7-90f5-b8199a4733aa(com.andredidier.plaintextoutput)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
@@ -57,7 +59,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6e4fbbbc-1f07-47e5-9316-da34f7f8c9fe(com.andredidier.curriculumvitae)</dependency>
-    <dependency reexport="false">5ddd4fbf-4201-4df7-90f5-b8199a4733aa(com.andredidier.plaintextoutput)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />
@@ -100,6 +101,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="6e4fbbbc-1f07-47e5-9316-da34f7f8c9fe(com.andredidier.curriculumvitae)" version="0" />
     <module reference="919bc267-bbe1-4b77-a58b-6526c65b44c1(com.andredidier.multilanguage)" version="0" />
+    <module reference="5be2f025-63b8-4305-b280-20fa1f90955b(com.andredidier.plaintext)" version="0" />
     <module reference="5ddd4fbf-4201-4df7-90f5-b8199a4733aa(com.andredidier.plaintextoutput)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
