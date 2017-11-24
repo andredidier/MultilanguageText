@@ -6,8 +6,8 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="z47l" ref="r:5ed5bb3f-bd1e-44e7-883f-e16014d00ba9(com.andredidier.plaintext.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="z47l" ref="r:5ed5bb3f-bd1e-44e7-883f-e16014d00ba9(com.andredidier.plaintext.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -281,29 +281,6 @@
       <property role="20kJfa" value="selected" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="1wfRh$iJPSc">
-    <property role="EcuMT" value="1733847481319382540" />
-    <property role="TrG5h" value="LanguageSelection" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1wfRh$iJPSd" role="1TKVEi">
-      <property role="IQ2ns" value="1733847481319382541" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="file" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1wfRh$iBjZO" resolve="MultilanguageTextFile" />
-    </node>
-    <node concept="1TJgyj" id="1wfRh$iJPSf" role="1TKVEi">
-      <property role="IQ2ns" value="1733847481319382543" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="language" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3klFhBVQSgp" resolve="Language" />
-    </node>
-    <node concept="PrWs8" id="1wfRh$iKhMU" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
