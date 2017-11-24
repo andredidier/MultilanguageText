@@ -39,6 +39,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -46,17 +49,10 @@
   </registry>
   <node concept="1TIwiD" id="1c4zpvem0n_">
     <property role="EcuMT" value="1370375869768926693" />
-    <property role="TrG5h" value="FormattedText" />
+    <property role="TrG5h" value="FormattedTextFile" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="formatted text" />
+    <property role="34LRSv" value="formatted text file" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1c4zpvem0os" role="1TKVEi">
-      <property role="IQ2ns" value="1370375869768926748" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="formatDefinitions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1c4zpvem0nO" resolve="FormatDefinition" />
-    </node>
     <node concept="1TJgyj" id="1c4zpvem0oq" role="1TKVEi">
       <property role="IQ2ns" value="1370375869768926746" />
       <property role="20lmBu" value="aggregation" />
@@ -64,22 +60,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1c4zpvem0nU" resolve="ITextContainer" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="1c4zpvem0nB">
-    <property role="EcuMT" value="1370375869768926695" />
-    <property role="TrG5h" value="FormattedPhrase" />
-    <property role="34LRSv" value="formatted phrase" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1c4zpvem0nM" role="1TKVEi">
-      <property role="IQ2ns" value="1370375869768926706" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="format" />
-      <ref role="20lvS9" node="1c4zpvem0nO" resolve="FormatDefinition" />
-    </node>
-    <node concept="1TJgyi" id="1c4zpvem0nR" role="1TKVEl">
-      <property role="IQ2nx" value="1370375869768926711" />
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="50YfrEDtluX" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="1c4zpvem0nC">
@@ -92,16 +74,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="phrases" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1c4zpvem0nB" resolve="FormattedPhrase" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="1c4zpvem0nO">
-    <property role="EcuMT" value="1370375869768926708" />
-    <property role="TrG5h" value="FormatDefinition" />
-    <property role="34LRSv" value="format definition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1c4zpvem0nP" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="20lvS9" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
     </node>
   </node>
   <node concept="1TIwiD" id="1c4zpvem0nT">
@@ -196,6 +169,60 @@
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1c4zpvem0nC" resolve="TextualElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="50YfrEDvF6Y">
+    <property role="EcuMT" value="5782126843507159486" />
+    <property role="TrG5h" value="Bold" />
+    <property role="34LRSv" value="bold" />
+    <property role="3GE5qa" value="FormattedPhrase" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="50YfrEDvF75" role="PzmwI">
+      <ref role="PrY4T" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
+    </node>
+    <node concept="1TJgyj" id="50YfrEDvF7b" role="1TKVEi">
+      <property role="IQ2ns" value="5782126843507159499" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="bolding" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="50YfrEDvF6Z">
+    <property role="EcuMT" value="5782126843507159487" />
+    <property role="TrG5h" value="IFormattedPhrase" />
+    <property role="3GE5qa" value="FormattedPhrase" />
+  </node>
+  <node concept="1TIwiD" id="50YfrEDvF72">
+    <property role="EcuMT" value="5782126843507159490" />
+    <property role="TrG5h" value="Plain" />
+    <property role="34LRSv" value="plain" />
+    <property role="3GE5qa" value="FormattedPhrase" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="50YfrEDvF73" role="PzmwI">
+      <ref role="PrY4T" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
+    </node>
+    <node concept="1TJgyi" id="50YfrEDvF79" role="1TKVEl">
+      <property role="IQ2nx" value="5782126843507159497" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="50YfrEDvF7d">
+    <property role="EcuMT" value="5782126843507159501" />
+    <property role="TrG5h" value="Italics" />
+    <property role="34LRSv" value="italics" />
+    <property role="3GE5qa" value="FormattedPhrase" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="50YfrEDvF7e" role="PzmwI">
+      <ref role="PrY4T" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
+    </node>
+    <node concept="1TJgyj" id="50YfrEDvF7g" role="1TKVEi">
+      <property role="IQ2ns" value="5782126843507159504" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="italicizing" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="50YfrEDvF6Z" resolve="IFormattedPhrase" />
     </node>
   </node>
 </model>
